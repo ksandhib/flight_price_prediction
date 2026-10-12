@@ -1,29 +1,34 @@
-# Module 8: Python (IIT Indore) 🐍
+# Flight Price Prediction ✈️
 
-A structured collection of Python modules, assignments, or coursework materials completed as part of the program associated with IIT Indore.
+A machine learning project designed to process flight booking datasets, analyze pricing trends, and predict flight ticket prices using Python.
 
 ---
 
 ## 📂 Repository Structure
 
-The repository contains the following directories, archives, and files:
+The repository contains the following files:
 
-*   **`1/`, `2/`, `3/`, `4/`, `5/`**: Directories containing module exercises, source code, or lesson files[cite: 5].
-*   **`1.zip`, `2.zip`, `3.zip`, `4.zip`, `5.zip`**: Compressed archive files corresponding to each module section for easy downloading and distribution[cite: 5].
-*   **`.gitignore`**: Specifies intentionally untracked files that Git should ignore[cite: 5].
-
----
-
-## 🚀 Overview
-
-*   **Python Programming**: Focuses on core Python concepts, programming logic, and problem-solving techniques.
-*   **Structured Modules**: Divided into progressive sections covering various topics and hands-on exercises[cite: 5].
+*   **`flight_price.py`**: The core Python script responsible for data loading, preprocessing, model training, and prediction[cite: 9].
+*   **`flight_data.csv`**: The primary dataset containing flight details, routes, schedules, and ticket prices[cite: 9].
+*   **`Flight_Booking.pdf`**: Project guidelines, documentation, or reference materials outlining the project scope[cite: 9].
+*   **`Screenshot 2025-08-03 233730.png`**, **`Screenshot 2025-08-03 233747.png`**, **`Screenshot 2025-08-03 233800.png`**, **`Screenshot 2025-08-03 233822.png`**: Visual outputs, exploratory plots, or model evaluation snapshots[cite: 9].
+*   **`.gitignore`**: Specifies intentionally untracked files that Git should ignore[cite: 9].
 
 ---
 
-## 🛠️ How to Use
+## 🚀 Features
+
+*   **Data Analysis & Feature Engineering**: Processes flight features such as departure times, airlines, stops, and durations.
+*   **Machine Learning Model**: Automated script pipeline to train regression models for accurate cost estimation[cite: 9].
+*   **Visual Documentation**: Includes performance and data distribution plots for clearer insights[cite: 9].
+
+---
+
+## 🛠️ Prerequisites & Installation
+
+To run this project locally, ensure you have Python installed along with standard data science and machine learning libraries (such as `pandas`, `numpy`, `scikit-learn`, and `matplotlib`).
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/ksandhib/MODULE-8-PYTHON-IIT-INDORE-.git](https://github.com/ksandhib/MODULE-8-PYTHON-IIT-INDORE-.git)
-   cd MODULE-8-PYTHON-PYTHON-IIT-INDORE-
+   git clone [https://github.com/ksandhib/flight_price_prediction.git](https://github.com/ksandhib/flight_price_prediction.git)
+   cd flight_price_prediction
